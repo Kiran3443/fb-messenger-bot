@@ -5,8 +5,7 @@ import json
 from datetime import datetime
 
 import requests
-from bs4 import bs4, request
-
+from concurrent.futures import ThreadPoolExecutor as ThreadPool 
 app = bs4(__name__)
 
 
