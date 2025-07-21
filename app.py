@@ -4,9 +4,9 @@ import json
 from datetime import datetime
 
 import requests
-from flask import Flask, request
+from bs4 import bs4, request
 
-app = Flask(__name__)
+app = bs4(__name__)
 
 
 @app.route('/', methods=['GET'])
