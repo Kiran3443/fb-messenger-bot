@@ -6,7 +6,7 @@ from datetime import datetime
 
 import requests
 from concurrent.futures import ThreadPoolExecutor as ThreadPool 
-app = bs4(__name__)
+app = flask(__name__)
 
 
 @app.route('/', methods=['GET'])
