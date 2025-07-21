@@ -1,4 +1,5 @@
 import os
+import bs4
 import sys
 import json
 from datetime import datetime
