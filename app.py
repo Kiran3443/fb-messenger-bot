@@ -3,7 +3,7 @@ import bs4
 import sys
 import json
 from datetime import datetime
-import flask 
+import flask as flask
 import requests
 from concurrent.futures import ThreadPoolExecutor as ThreadPool 
 app = flask(__name__)
